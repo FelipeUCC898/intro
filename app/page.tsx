@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
-      <article className="w-full max-w-sm bg-white rounded-2xl border-4 border-red-500 shadow-lg overflow-hidden">
+    <div className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
+      <article className="w-full max-w-sm bg-white rounded-2xl border-4 border-red-500 shadow-2xl overflow-hidden">
         {/* Imagen */}
         <figure className="relative w-full h-48 sm:h-56 m-0">
           <Image
@@ -38,6 +38,6 @@ export default function Home() {
           </footer>
         </section>
       </article>
-    </main>
+    </div>
   );
 }
